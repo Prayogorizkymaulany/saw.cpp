@@ -37,3 +37,14 @@ for(int i=0;i<3;i++){
 	 (ac[2][3]/mc[4]), 
 	 (ac[2][4]/mc[5])}
 	};
+	
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			cout<<Rac[i][j]<<" | ";
+		}cout<<endl;
+	}
+		cout<<endl<<"BOBOT W : "<<endl;
+	double w[5]={5,3,4,4,2};
+	for(int i=0;i<5;i++){
+	cout<<w[i]<<" | ";
+	}cout<<endl;
